@@ -22,10 +22,11 @@ test:
 
 production:
   adapter: postgresql
+  database: db/production.sqlite3
   encoding: unicode
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  database: rails-tweeter_production
+  database: rails_tweeter_production
   username: rails-tweeter
   password: <%= ENV['TWITTER_RAILS_DATABASE_PASSWORD'] %>

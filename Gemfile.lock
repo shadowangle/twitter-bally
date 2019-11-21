@@ -107,6 +107,7 @@ GEM
     nokogiri (1.10.5-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
+    pg (1.1.4-x64-mingw32)
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
@@ -215,6 +216,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   devise
   jbuilder (~> 2.7)
+  pg
   pry
   puma (~> 3.11)
   rails (~> 6.0.0)
